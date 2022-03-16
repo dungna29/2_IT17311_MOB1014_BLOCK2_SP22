@@ -41,6 +41,12 @@ public class B7_ToanTuBaNgoi {
             nsBan = Integer.parseInt(sc.nextLine());
             System.out.print("Mời bạn nhập giới tính: ");
             gtBan = Integer.parseInt(sc.nextLine());
+            
+            String temp=(namSinhBanThan > nsBan && gtBan == 1)?"Anh":
+                    (namSinhBanThan > nsBan && gtBan == 0)?"Chị":
+                    (namSinhBanThan < nsBan && gtBan == 1)?"Em Trai":
+                    (namSinhBanThan < nsBan && gtBan == 0)?"Em Gái":"Bạn";
+            System.out.printf("Chào %s %s \n",temp,tenBan);
         }
 
     }
