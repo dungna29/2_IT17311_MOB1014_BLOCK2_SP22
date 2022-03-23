@@ -72,7 +72,13 @@ public class B3_ThuatToanNoiBot_BubbleSort {
         for (int x : arrNumber) {
             System.out.print(x + " ");
         }
+        
+        for (int i = 0; i < 10; i++) {
+            
+        }
 
     }
     //Cách 2:
+    
+   
 }
