@@ -81,5 +81,7 @@ public class S1_LyThuyet {
         NguoiYeuCu nyc2 = new NguoiYeuCu("Nguyễn Thị B", 2003, 50.1, "BN", "Không thích ăn", 0, "Bách khoa");
         nyc1.inRaManHinh();
         nyc2.inRaManHinh();
+        
+        System.out.println(nyc2.getCanNang());
     }
 }
